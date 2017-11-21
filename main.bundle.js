@@ -75,7 +75,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 window.aGoodHardShuffling = () => {
   const text = document.getElementById("input").value;
-  console.log(__WEBPACK_IMPORTED_MODULE_0_shuffle_words___default()(text));
   document.getElementById("output").textContent = __WEBPACK_IMPORTED_MODULE_0_shuffle_words___default()(text);
 };
 
