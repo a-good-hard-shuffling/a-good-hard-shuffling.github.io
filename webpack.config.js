@@ -23,7 +23,7 @@ module.exports = {
               {
                 modules: false,
                 targets: {
-                  browsers: ["chrome 62"]
+                  browsers: ["last 4 versions"]
                 }
               }
             ]

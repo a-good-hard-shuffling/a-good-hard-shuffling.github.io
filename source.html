@@ -9,13 +9,16 @@
   h1, #input, button {
     margin-bottom: 2rem;
   }
+  #output {
+    border: 0 none;
+  }
 </style>
 </head>
 <body>
   <section id="main">
     <h1>A Good Hard Shuffling</h1>
-    <textarea rows="12" id="input" wrap="hard"></textarea>
-    <button type="submit" onClick="aGoodHardShuffling()">Shuffle me, daddy</button>
-    <div id="output"></div>
+    <textarea rows="12" id="input" wrap="soft"></textarea>
+    <button id="submit" type="submit" onClick="aGoodHardShuffling()">Shuffle me, daddy</button>
+    <textarea rows="12" id="output" wrap="soft"></textarea>
   </section>
 </body>

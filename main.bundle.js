@@ -73,9 +73,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_shuffle_words___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_shuffle_words__);
 
 
-window.aGoodHardShuffling = () => {
-  const text = document.getElementById("input").value;
+window.aGoodHardShuffling = function () {
+  var text = document.getElementById("input").value;
   document.getElementById("output").textContent = __WEBPACK_IMPORTED_MODULE_0_shuffle_words___default()(text);
+  document.getElementById("submit").textContent = "Shuffle me again, Big Poppa";
 };
 
 /***/ }),
