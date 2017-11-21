@@ -6,19 +6,27 @@
   #main {
     padding: 4rem;
   }
-  h1, #input, button {
+  h1, #input, button, #footer {
     margin-bottom: 2rem;
   }
   #output {
     border: 0 none;
+  }
+  #footer {
+    text-align: center;
   }
 </style>
 </head>
 <body>
   <section id="main">
     <h1>A Good Hard Shuffling</h1>
-    <textarea rows="12" id="input" wrap="soft"></textarea>
+    <textarea spellcheck="false" autofocus rows="12" id="input" wrap="soft"></textarea>
+    <div>
     <button id="submit" type="submit" onClick="aGoodHardShuffling()">Shuffle me, daddy</button>
-    <textarea rows="12" id="output" wrap="soft"></textarea>
+  </div>
+    <textarea spellcheck="false" readonly rows="12" id="output" wrap="soft"></textarea>
+  </section>
+  <section id="footer">
+    <div>Brought to you by the Coconut Dakini Institute for Flower Fucking</div><div><em>~ ACAB 1917 ~</em></div>
   </section>
 </body>
